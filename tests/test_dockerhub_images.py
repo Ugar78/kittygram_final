@@ -2,7 +2,7 @@ from http import HTTPStatus
 from pathlib import Path
 
 import requests
-
+import pytest
 
 def _get_dockerhub_username(
         deploy_file_info: tuple[Path, str],
